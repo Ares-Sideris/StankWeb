@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>OMS</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/shop.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">OMS</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="html/about.html">О нас</a>
+                    </li>
+                    <li>
+                        <a href="html/services.html">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="html/contacts.html">Контакты</a>
+                    </li>
+					
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">Товары</p>
+				<br>
+				<h3><a href="" class="cart-link" data-toggle="modal" data-target="#Cart"> Корзина </a> </h3>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="img/1.jpg" width="200" height="100" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="img/2.jpg" width="200" height="100" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="img/3.jpg" width="200" height="100" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <a href="" data-toggle="modal" data-target="#FirstGoodModal"><img src="img/goods/1.jpg" alt=""></a>
+                            <div class="caption">
+                                <h4 class="pull-right"><br>₽16500</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FirstGoodModal">Intel Core i5 12400F</a>
+                                </h4>
+								<p>Артикул: 1782240</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <a href="" data-toggle="modal" data-target="#SecondGoodModal"><img src="img/goods/2.jpg" alt=""></a>
+                            <div class="caption">
+                                <h4 class="pull-right"><br>₽37790</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#SecondGoodModal">Palit NVIDIA GeForce <br>RTX 2060SUPER</a>
+                                </h4>
+                                <p>Артикул: 1489448</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <a href="" data-toggle="modal" data-target="#ThirdGoodModal"><img src="img/goods/3.jpg" alt=""></a>
+                            <div class="caption">
+                                <h4 class="pull-right"><br>₽1000</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#ThirdGoodModal">Digma DGMAS31600008D<br> DDR3</a>
+                                </h4>
+                                <p>Артикул: 1784244</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">31 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <a href="" data-toggle="modal" data-target="#FourthGoodModal"><img src="img/goods/4.jpg" alt=""></a>
+                            <div class="caption">
+                                <h4 class="pull-right"><br>₽13000</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FourthGoodModal">Материнская плата <br>MSI B550 <br>GAMING GEN3</a>
+                                </h4>
+                                <p>Артикул: 1844989</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">6 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <a href="" data-toggle="modal" data-target="#FifthGoodModal"><img src="img/goods/5.jpg" alt=""></a>
+                            <div class="caption">
+                                <h4 class="pull-right"><br>₽4000</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FifthGoodModal">SSD накопитель <br>	Kingston A400</a>
+                                </h4>
+                                <p>Артикул: 420253</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+	
+	<div class="modal fade" id="FirstGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Процессор Intel Core i5 12400F</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/1.jpg" width="500" height="500"
+        <p><br>Процессор Intel Core i5 12400F, LGA 1700, OEM [cm8071504650609s rl5z]
+			<br>    Ядро: Alder Lake;
+    <br>Частота: 2.5 ГГц и 4.4 в режиме Turbo;
+    <br>Сокет: LGA 1700;
+    <br>Число ядер: 6, потоков 12;
+    <br>Тепловыделение: 65 Вт;
+    <br>Техпроцесс: 10 нм; 
+</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> добавить в корзину </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-1"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="SecondGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Видеокарта Palit NVIDIA GeForce RTX 2060SUPER</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/2.jpg" width="500" height="300"
+        <p><br>Видеокарта Palit NVIDIA GeForce RTX 2060SUPER PA-RTX2060SUPER DUAL 8G no LED 8ГБ GDDR6, Ret [ne6206s018p2-1160a-1]
+			<br>    Видеочипсет: NVIDIA GeForce RTX 2060SUPER, 1470 МГц (1650 МГц, в режиме Boost);
+    <br>Память: 8192 МБ GDDR6, 14000 МГц;
+    <br>Интерфейс: PCI-E 3.0;
+    <br>Техпроцесс: 12 нм;
+    <br>Разъемы: Display Port х 1, HDMI х 1, DVI х 1,
+    <br>Питание: 8 pin, рекомендовано 550 Вт;
+    <br>Особенности: поддержка DLSS; </p> 
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> добавить в корзину </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-2"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+	<div class="modal fade" id="ThirdGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Оперативная память Digma DGMAS31600008D DDR3</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/3.jpg" width="500" height="400"
+        <p><br>Оперативная память Digma DGMAS31600008D DDR3L - 8ГБ 1600МГц, для ноутбуков (SO-DIMM), Ret
+			<br>    Объем: 8192 МБ;
+    <br>Латентность: CL11;
+    <br>Тайминги: 11-11-11-28;
+    <br>Форм-фактор: SO-DIMM, 204-pin;
+    <br>Тип поставки: Ret; </p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> добавить в корзину </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-3"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="FourthGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Материнская плата MSI B550 GAMING GEN3</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/4.jpg" width="500" height="400"
+        <p><br>Материнская плата MSI B550 GAMING GEN3, SocketAM4, AMD B550, ATX, Ret
+			<br>    Форм-фактор: ATX;
+    <br>Сокет: SocketAM4; чипсет: AMD B550;
+    <br>Несколько видеокарт: CrossFire;
+    <br>Память: частотой до 3200 МГц;
+    <br>Слоты: PCI-E 3.0 x16 х 2, PCI-E x1 х 4,
+    <br>Разъемы: M.2 х 1, HDMI х 1, DVI х 1,
+    <br>Сеть: Gigabit Ethernet; </p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> добавить в корзину </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-4"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="FifthGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">SSD накопитель Kingston A400</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/5.jpg" width="500" height="400"
+        <p><br>SSD накопитель Kingston A400 SA400S37/480G 480ГБ, 2.5", SATA III, SATA
+			<br>    Объем накопителя: 480 ГБ;
+    <br>Скорости: чтения до 500 МБ/с, записи до 450 МБ/с;
+    <br>Интерфейс: SATA III;
+    <br>Тип памяти: 3D;
+    <br>TBW: 160 ТБ;
+    <br>Форм-фактор: 2.5"; толщина 7 мм; разъем SATA; </p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> добавить в корзину </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-5"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	<div class="modal fade" id="Cart">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Корзина</h4>
+      </div>
+      <div class="modal-body cart-body">
+	
+      </div>
+      <div class="modal-footer">
+	  		<button type="button" class="btn btn-default btn-close" OnClick="clearCart(); $('.cart-body').html('');"> Очистить корзину </button>
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary btn-order">Заказать</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    
+
+</body>
+
+</html>
